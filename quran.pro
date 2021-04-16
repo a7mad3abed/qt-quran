@@ -1,4 +1,4 @@
-QT += quick
+QT += quick xml
 
 CONFIG += c++11
 
@@ -23,12 +23,13 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-unix|win32: LIBS += -ltinyxml
+
+
 
 DISTFILES += \
-    ../Downloads/KFGQPC_AnLight/KFGQPC AnLight.ttf \
-    ../Downloads/UthmanTN1-Ver10/UthmanTN1 Ver10.otf \
     fonts/UthmanicHafs1.ttf
 
 HEADERS += \
     xmlres.h
+
+

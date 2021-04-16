@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>fonts/UthmanicHafs1.ttf</file>
-        <file>../Downloads/KFGQPC_AnLight/KFGQPC AnLight.ttf</file>
+        <file>Chapter001.xml</file>
+        <file>quran-uthmani.xml</file>
     </qresource>
 </RCC>

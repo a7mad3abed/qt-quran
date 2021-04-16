@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE Chapter [
+	<!ATTLIST Chapter ChapterID CDATA #REQUIRED>
+	<!ATTLIST Chapter ChapterName CDATA #REQUIRED>
+	<!ELEMENT Chapter (Verse+)>
+	<!ATTLIST Verse VerseID CDATA #REQUIRED>
+	<!ELEMENT Verse (#PCDATA)>
+]>
+<!-- This SQL Query Generated at 15 April 2021 23:51 (UTC) from www.qurandatabase.org -->
+<Chapter ChapterID="1" ChapterName="الفاتحة">
+	<Verse VerseID="1"><![CDATA[بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ]]></Verse>
+	<Verse VerseID="2"><![CDATA[الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ]]></Verse>
+	<Verse VerseID="3"><![CDATA[الرَّحْمَٰنِ الرَّحِيمِ]]></Verse>
+	<Verse VerseID="4"><![CDATA[مَالِكِ يَوْمِ الدِّينِ]]></Verse>
+	<Verse VerseID="5"><![CDATA[إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ]]></Verse>
+	<Verse VerseID="6"><![CDATA[اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ]]></Verse>
+	<Verse VerseID="7"><![CDATA[صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ]]></Verse>
+</Chapter>
