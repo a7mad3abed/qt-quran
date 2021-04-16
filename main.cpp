@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 #endif
 
     QGuiApplication app(argc, argv);
+    app.setLayoutDirection(Qt::RightToLeft);
     XmlRes xmlRes ;
 
     QQmlApplicationEngine engine;
