@@ -17,6 +17,8 @@ signals:
     void textFromXmlChanged();
 private:
     QString m_textFromXml;
+    QByteArray buffer;
+    QByteArray correct_buffer;
 };
 
 #endif // XMLRES_H

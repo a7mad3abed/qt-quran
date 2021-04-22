@@ -1,4 +1,4 @@
-QT += quick xml
+QT += quick xml sql
 
 CONFIG += c++11
 

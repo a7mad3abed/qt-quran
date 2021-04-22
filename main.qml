@@ -19,26 +19,25 @@ Window {
             }
         }
 
-        Flickable{
-            id: flickArea
-            anchors.fill: parent
-            contentWidth: xmltext.width
-            contentHeight: xmltext.height
-            flickableDirection: Flickable.HorizontalFlick
-            clip: true
+//        Flickable{
+//            id: flickArea
+//            anchors.fill: parent
+//            contentWidth: xmltext.width
+//            contentHeight: xmltext.height
+//            flickableDirection: Flickable.HorizontalFlick
+//            clip: true
 
 
             Text{
                 id: xmltext
+                width: parent.width
 
-                textFormat: Text.StyledText
                 //readOnly: true
-                wrapMode: Text.WrapAnywhere
-                elide: Text.ElideRight
+                wrapMode: Text.WrapAtWordBoundaryOrAnywhere
                 text: xmlRes.textFromXml
                 font.family: uthmanic.name
-                font.pointSize: 29
+                font.pointSize: 16
             }
         }
-    }
+   // }
 }
